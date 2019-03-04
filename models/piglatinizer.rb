@@ -31,6 +31,6 @@ end
 
 def piglatinize_sentence(sentence)
   split_sentence = sentence.split(" ")
-  #split_sentence.collect {|word| piglatinize_word(word)}.join(" ")
+  split_sentence.collect {|word| piglatinize_word(word)}.join(" ")
 end
 end
